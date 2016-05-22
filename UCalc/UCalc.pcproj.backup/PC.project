@@ -1,0 +1,90 @@
+{
+    APPLICATIONICON = "";
+    "APP_DOCUMENT_BASED" = NO;
+    "APP_TYPE" = GORM;
+    "BUILDER_TARGETS" = (
+	all,
+	install,
+	uninstall,
+	clean,
+	distclean,
+	dist
+    );
+    "BUILDER_VERBOSE" = YES;
+    "CLASS_FILES" = (
+	"UCController.m",
+	"UCResponder.m"
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    "CREATION_DATE" = "2016-03-17 21:18:44 +0000";
+    "DOCU_FILES" = (
+    );
+    FRAMEWORKS = (
+    );
+    "HEADER_FILES" = (
+	"UCController.h",
+	"UCResponder.h"
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/GNUstep";
+    INSTALLDOMAIN = User;
+    INTERFACES = (
+	"UCalc.gorm",
+	"Main.gsmarkup",
+	"MainMenu-GNUstep.gsmarkup",
+	"MainMenu-OSX.gsmarkup"
+    );
+    LANGUAGE = English;
+    LIBRARIES = (
+	"gnustep-base",
+	"gnustep-gui"
+    );
+    LINKEROPTIONS = "";
+    "LOCALIZED_RESOURCES" = (
+    );
+    MAININTERFACE = "UCalc.gorm";
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    "OBJC_COMPILEROPTIONS" = "";
+    "OTHER_RESOURCES" = (
+    );
+    "OTHER_SOURCES" = (
+	"UCalc_main.m"
+    );
+    "PRINCIPAL_CLASS" = NSApplication;
+    "PROJECT_AUTHORS" = (
+	"Bruno Melo",
+	"Iano Kuhlmann",
+	"Based on EdenMath"
+    );
+    "PROJECT_COPYRIGHT" = "Copyright (C) 2016";
+    "PROJECT_COPYRIGHT_DESC" = "Released under MPL";
+    "PROJECT_CREATOR" = "Bruno Maximo";
+    "PROJECT_DESCRIPTION" = "A calculator for Unix Workbench";
+    "PROJECT_DOCUMENTTYPES" = (
+    );
+    "PROJECT_GROUP" = "No group avaliable!";
+    "PROJECT_MAINTAINER" = "Bruno Maximo";
+    "PROJECT_NAME" = UCalc;
+    "PROJECT_RELEASE" = "0.4";
+    "PROJECT_SUMMARY" = "No summary avaliable!";
+    "PROJECT_TYPE" = Application;
+    "PROJECT_URL" = "";
+    "SEARCH_HEADER_DIRS" = (
+    );
+    "SEARCH_LIB_DIRS" = (
+    );
+    SUBPROJECTS = (
+    );
+    "SUPPORTING_FILES" = (
+	"GNUmakefile.preamble",
+	GNUmakefile,
+	"GNUmakefile.postamble",
+	"UCalcInfo.plist"
+    );
+    "USER_LANGUAGES" = (
+	AmericanEnglish,
+	English
+    );
+}

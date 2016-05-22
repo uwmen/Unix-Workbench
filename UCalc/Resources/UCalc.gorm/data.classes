@@ -1,0 +1,98 @@
+{
+    "## Comment" = "Do NOT change this file, Gorm maintains it";
+    FirstResponder = {
+	Actions = (
+	    "Add:",
+	    "Button0:",
+	    "Button1:",
+	    "Button2:",
+	    "Button3:",
+	    "Button4:",
+	    "Button5:",
+	    "Button6:",
+	    "Button7:",
+	    "Button8:",
+	    "Button9:",
+	    "Clear:",
+	    "Div:",
+	    "Dot:",
+	    "Equal:",
+	    "Mul:",
+	    "Percent:",
+	    "Reverse:",
+	    "Sub:",
+	    "add:",
+	    "clear:",
+	    "clearHistory:",
+	    "digitButton:",
+	    "div:",
+	    "dot:",
+	    "equal:",
+	    "mul:",
+	    "newAction1:",
+	    "thousand_separator:",
+	    "orderFrontFontPanel:",
+	    "percent:",
+	    "reverse:",
+	    "sub:",
+	    "undoAction:"
+	);
+	Super = NSObject;
+    };
+    UCController = {
+	Actions = (
+	    "add:",
+	    "div:",
+	    "dot:",
+	    "equal:",
+	    "mul:",
+	    "percent:",
+	    "reverse:",
+	    "sub:",
+	    "clear:",
+	    "digitButton:",
+	    "copy:",
+	    "cut:",
+	    "paste:",
+	    "clearHistory:",
+	    "undoAction:",
+	    "thousand_separator:"
+	);
+	Outlets = (
+	    displayField,
+	    expressionField,
+	    historyField
+	);
+	Super = NSObject;
+    };
+    UCalc = {
+	Actions = (
+	    "Add:",
+	    "Button0:",
+	    "Button1:",
+	    "Button2:",
+	    "Button3:",
+	    "Button4:",
+	    "Button5:",
+	    "Button6:",
+	    "Button7:",
+	    "Button8:",
+	    "Button9:",
+	    "Clear:",
+	    "Div:",
+	    "Dot:",
+	    "Equal:",
+	    "Mul:",
+	    "Percent:",
+	    "Sub:",
+	    "Reverse:"
+	);
+	Outlets = (
+	    operation,
+	    number,
+	    result,
+	    exp
+	);
+	Super = NSObject;
+    };
+}
